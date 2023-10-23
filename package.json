@@ -1,1 +1,17 @@
-package
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0" // If you use body-parser
+    // Add any other dependencies here
+  },
+  "engines": {
+    "node": "14.x" // Adjust the version if needed
+  }
+}
